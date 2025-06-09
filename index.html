@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <!-- StyleLinks -->  
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Script Links -->  
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Fastrak Services Inc</title>
+</head>
+<body>
+<!-- Navbar Section -->   
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="FSI Assets/logo.webp">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#partners">Our Partners</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <a href="#track" class="track-btn">Track Now</a>
+            <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+        </nav>
+
+        <!-- Sidebar -->
+         
+        <div class="sidebar" id="sidebar">
+            <span class="close-btn" onclick="toggleSidebar()">✖</span>
+            <ul class="sidebar-nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Track Now</a></li>
+            </ul>
+            <a href="#" class="track-btn">Track</a>
+        </div>
+    </header>
+
+<!-- Banner Section -->
+    <section class="banner-section">
+        <div class="banner">
+                <div class="text-section">
+                    <img src="FSI Assets/logo.webp" alt="FSI Logo" class="banner-logo">
+                    <p class="banner-title">Your <span class="highlight">Trusted</span> Courier Partner</p>
+                    <button class="contact-btn">Contact Us</button>
+                    <div class="stats">
+                        <div class="stat">
+                            <h2>400M+</h2>
+                            <p>documents, mails, and parcels delivered to date.</p>
+                        </div>
+                        <div class="stat">
+                            <h2>26 years</h2>
+                            <p>trusted service in the courier industry.</p>
+                        </div>
+                    </div>
+                </div>            
+                <div class="image-section">
+                    <img src="FSI Assets/courier-team.webp" alt="Courier Team" class="courier-image">
+                </div>
+           
+        </div>
+    </section>
+
+<!-- Our Strength Section -->
+    <section class="our-strength-section">
+        <p class="strength-title">Our Strength</p>
+        <p class="strength-subtitle">Empowering your success with nationwide reach, advanced automation, and trusted e-commerce solutions.</p>
+        <div class="categories">
+            <div class="category1">
+                <h3>Vast Area Coverage: FSI Delivering Nationwide</h3>
+                <p>With FSI extensive reach, FSI ensures seamless delivery across key cities of Luzon, Visayas and Mindanao.</p>
+                <img src="FSI Assets/strength-1.webp" alt="Courier Team" class="category1-image">
+            </div>
+            <div class="category2">
+                <h3>Cutting-edge Automation</h3>
+                <p>FSI values technology innovation, pioneering in process automation for courier systems. Our commitment to technological advancement ensures accuracy, efficiency and secure handling of all the items we deliver.</p>
+                <img src="FSI Assets/c2.webp" alt="Courier Team" class="category1-image">
+            </div>
+            <div class="category3">
+                <h3>Trusted E-commerce Solutions</h3>
+                <p>With over 25 years in the industry, FSI's extensive network and experience have birthed SKYWARD – your trusted partner for e-commerce technology solutions. Rely on us for secure and reliable services that redefine the standards of the industry.</p>
+                <img src="FSI Assets/category3.webp" alt="Courier Team" class="category1-image">
+            </div>
+        </div>
+    </section>
+
+ <!-- About Us Section -->   
+    <section class="aboutus-section">
+        <img src="FSI Assets/about.webp" alt="About us" class="about-image">
+        <div class="about-us">
+            <p class="about-title">About Us</p>
+            <p class="about-subtitle">Learn more about who we are, what we do, and how we deliver trusted solutions across industries.</p>
+        </div>
+    </section>
+
+<!-- About Us Section -->       
+    <section class="aboutus-section2">
+        <div class="aboutus-container">
+            <div class="aboutus-left">
+                <p>Celebrating a legacy of over <span class="about-highlight">26 years</span> marked by excellence and innovation</p>
+            </div>
+            <div class="aboutus-divider"></div>
+            <div class="aboutus-right">
+                <p>FSI - Fastrak Services, Inc. stands as a distinguished  <a href="https://dict.gov.ph/" class="p-highlight">DICT</a> Licensed and <a href="https://dict.gov.ph/list-of-authorized-pemedes-or-courier-service-providers-2019" class="p-highlight">PEMEDES</a> Accredited Private Courier Company. 
+                As a leading delivery partner to major banks and credit card companies, FSI has been a consistent recipient of the Platinum and Titanium awards from 
+                <a href="https://www.ccap.net.ph/" class="p-highlight">Credit Card Association of the Philippines (CCAP)</a> , showcasing unwavering commitment to industry standards.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Awards Section -->       
+    <section class="carousel">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="FSI Assets/image1.webp" alt="Award 1"></div>
+                <div class="swiper-slide"><img src="FSI Assets/image2.webp" alt="Award 2"></div>
+                <div class="swiper-slide"><img src="FSI Assets/image3.webp" alt="Award 3"></div>
+                <div class="swiper-slide"><img src="FSI Assets/image4.webp" alt="Award 4"></div>
+                <div class="swiper-slide"><img src="FSI Assets/image1.webp" alt="Award 1"></div>
+                <div class="swiper-slide"><img src="FSI Assets/image2.webp" alt="Award 2"></div>
+                <div class="swiper-slide"><img src="FSI Assets/image3.webp" alt="Award 3"></div>
+                <div class="swiper-slide"><img src="FSI Assets/image4.webp" alt="Award 4"></div>
+            </div>
+        </div>
+    </section>
+
+<!-- About Us Section -->       
+    <section class="aboutus-section3">
+        <div class="aboutus-container2">
+            <div class="aboutus-left2">
+                <p>Entering its 26th year in industry, FSI reflects on a remarkable journey of delivering approximately 400 million items (documents, mails & small parcels) across the country, spanning from Tuguegarao City in Cagayan Valley down to Davao City in Mindanao and reaching key cities and provinces in Luzon, Visayas, and Mindanao. Through adherence to Bangko Central’s policies and procedures,
+                    FSI has solidified its position as a trusted partner in the essential mail and document delivery</p>
+                   <p class="next-p">Moreover, FSI has recently expanded its reach through a strategic partnership with SKYWARD, an e-Commerce Technology Solutions Company. This collaboration has propelled FSI to serve as a major courier and delivery partner for both Private and Key Government Institutions.</p>
+            </div>
+            <div class="aboutus-divider2"></div>
+            <div class="aboutus-right2">
+                <p>26 Years of Milestones</p>
+            </div>
+        </div>
+    </section>
+
+<!-- About Us Section -->       
+    <section class="statistic-section">
+        <div class="statistics">
+            <div class="statistic">
+                <h2 class="p2">26</h2>
+                <p class="p2">Years In Service</p>
+            </div>
+            <div class="statistic">
+                <h2 class="p3">30,000,000<span class="plus">+</span></h2>
+                <p class="p3">Distributed and Delivered Documents and Parcels Annually</p>
+            </div>
+            <div class="statistic">
+                <h2 class="p4">400,000,000<span class="plus">+</span></h2>
+                <p class="p4">Delivered Items Nationwide</p>
+            </div>
+        </div>  
+    </section>
+
+<!-- Our Expertise Section -->       
+    <section class="expertise-section">
+        <div class="expertise-content">
+            <p class="expertise-title">Our Expertise</h2>
+            <p>At FSI, we offer a comprehensive range of logistical services.</p>
+            <p>With our state-of-the-art Central Gateway Processing, Distribution Management System, and Last Mile Courier Delivery Tracking Management System (Developed and Powered by SKYWARD), FSI ensures seamless warehousing, fulfillment, and last-mile delivery solutions.</p>
+        </div>
+        <div class="expertise-cards">
+            <div class="card">
+                <img src="FSI Assets/warehousing.webp" alt="Warehousing">
+                <p>Warehousing</p>
+            </div>
+            <div class="card">
+                <img src="FSI Assets/fullfilment.webp" alt="Fulfillment">
+                <p>Fulfillment</p>
+            </div>
+            <div class="card">
+                <img src="FSI Assets/deliver.webp" alt="Last Mile Delivery">
+                <p>Last Mile Delivery Solutions</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Clients-partners Section -->       
+    <section class="clients-section">
+        <div class="clients-container">
+            <p class="clients-title">Our Client Partners</p>
+            <p class="clients-subtitle">Trusted by brands, driven by partnerships. <br>
+               Together, we create, innovate, and grow.</p>  
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <img src="FSI Assets/prc.webp" alt="Partner 1">
+                </div>
+                <div class="partner-card">
+                    <img src="FSI Assets/nbi.webp" alt="Partner 2">
+                </div>
+                <div class="partner-card">
+                    <img src="FSI Assets/lto.webp" alt="Partner 3">
+                </div>
+                <div class="partner-card">
+                    <img class="advph" src="FSI Assets/adv-logo.webp" alt="Partner 4">
+                </div>
+                <div class="partner-card">
+                    <img class="multistore" src="FSI Assets/multistore.webp" alt="Partner 5">
+                </div>
+                <div class="partner-card">
+                    <img class="metrobank" src="FSI Assets/metro-bank.webp" alt="Partner 6">
+                </div>
+                <div class="partner-card">
+                    <img class="east-west" src="FSI Assets/east-west.webp" alt="Partner 7">
+                </div>
+                <div class="partner-card">
+                    <img class="security-bank" src="FSI Assets/security-bank.webp" alt="Partner 8">
+                </div>
+                <div class="partner-card">
+                    <img class="pbcom" src="FSI Assets/pbcom.webp" alt="Partner 9">
+                </div>
+                <div class="partner-card">
+                    <img class="union-bank" src="FSI Assets/union-bank.webp" alt="Partner 10">
+                </div>
+                <div class="partner-card">
+                    <img src="FSI Assets/pnb-bank.webp" alt="Partner 11">
+                </div>
+                <div class="partner-card">
+                    <img class="psb-bank" src="FSI Assets/psb-bank.webp" alt="Partner 12">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Accredit Section -->       
+    <section class="accredit-section">
+        <div class="accredit-container">
+            <p class="accredit-title">Accredited by</p>
+            <div class="accredit-card">
+                <img src="FSI Assets/accredited-logo.webp" alt="Accredit by">
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Us Section -->       
+    <section class="contact-section">
+        <div class="contact-conatiner">
+            <p class="contact-title">Contact Us</p>
+            <p class="contact-subtitle">For inquiries and service-related requests, you can contact us on the details provided below.</p>
+            <div class="address">
+                <div class="address-title"><i data-lucide="map-pin" stroke-width="2.8"></i><h6>Address</h6></div> 
+                <p>
+                    <a href="https://www.google.com/maps?q=Kilometer+16+East+Service+Road,+3+Felix+Baes+Street,+Perpetual+Avenue,+Perpetual+Village,+Parañaque+City+1700" 
+                       target="_blank" 
+                       rel="noopener noreferrer">
+                        Kilometer 16 East Service Road, 3 Felix Baes Street, Perpetual Avenue, Perpetual Village, Parañaque City 1700
+                    </a>
+                </p>
+            </div>
+            <div class="call-email">
+                <div class="call">
+                    <div class="call-title"><i data-lucide="phone" stroke-width="2.8"></i><h6>Call</h6></div>                     
+                    <p>+632-8359-1621</p>
+                    <p>+63 917-547-8501</p>
+                    <p>+63 917-715-1842</p>
+                </div>
+                <div class="email">
+                    <div class="email-title"><i data-lucide="mail" stroke-width="2.8"></i> <h6>Email</h6></div>
+                    <p>inquiry@fsi.com.ph</p>
+                </div>
+            </div>
+            <div class="hours">
+                <div class="hours-title"><i data-lucide="clock-3" stroke-width="2.8"></i><h6>Gateway Operating Hours</h6></div>
+                
+                <div class="weekdays">
+                    <p class="dark">Mon - Fri</p>
+                    <p>24 hrs</p>
+                </div>
+                <div class="weekends">
+                    <p class="dark">Sat - Sun</p>
+                    <p>8am - 5pm</p>
+                </div>
+                <div class="hours-title2"><h6>Office Hours</h6></div>
+                <div class="weekdays">
+                    <p class="dark">Mon - Fri</p>
+                    <p>8am - 5pm</p>
+                </div>
+            </div>    
+        </div>
+        <form class="contact-form">
+            <p class="contact-form-header">Leave us a Message</p>
+            <p class="contact-subheading">We'll get back to you as soon as possible.</p>
+            <div class="sender-info">
+                <div class="name">
+                    <label for="full-name">Full Name</label>
+                    <input type="text">
+                </div>
+                <div class="email">
+                    <label for="email">Email Address</label>
+                    <input type="email">
+                </div>               
+            </div>
+            <div class="subject">
+                <label for="subject">Subject</label>
+                <input type="text">
+            </div>
+            <div class="Message">
+                <label for="message">Message</label>
+                <textarea></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>   
+    </section>
+
+<!-- Footer Section -->       
+    <section class="footer">
+        <div class="footer-content">
+            <p class="left-content">
+                Copyright © 2025 Fastrak Services, Inc.
+            </p>
+            <div class="footer-divider"></div>
+            <p class="right-content">
+                Developed and Powered by <img class="skyward-logo" src="FSI Assets/skyward-logo.webp" alt="skyward-logo">
+            </p>
+        </div>
+    </section>
+
+</body>
+<script>
+    lucide.createIcons();
+  </script>
+</html>
